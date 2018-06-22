@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 class Dashboard extends Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
 
     }
 
@@ -10,9 +10,10 @@ class Dashboard extends Component{
 
 
     render(){
+    //layout says this shouldn't have methods....but in the instructions it tells me that i should map over the arrays......weird.
         return(
             <div>
-            Dashboard
+                Dashboard
             </div>
         )
     }

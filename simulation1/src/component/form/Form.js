@@ -63,7 +63,7 @@ class Form extends Component{
                 <button
                 onClick={()=>{this.handleClick()}}>Cancel</button>
                 <button
-                onClick={()=>{this.addToInventory()}}>Add to Inventory</button>
+                onClick={()=>{this.newItem()}}>Add to Inventory</button>
             </div>
         )
     }
