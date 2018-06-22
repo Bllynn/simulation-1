@@ -1,2 +1,13 @@
-/* {<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-font-family: 'Open Sans', sans-serif;} */
+{<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+font-family: 'Open Sans', sans-serif;}
+.app{
+    display:flex;
+    
+}
+.main{display: flex;
+    justify-content: space-around;
+
+}
+.button{
+    border-radius:5px;
+}

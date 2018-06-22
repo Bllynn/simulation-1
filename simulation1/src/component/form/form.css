@@ -1,0 +1,17 @@
+.form{
+    display: flex;
+    justify-content: center;
+
+}
+.cancel{
+    border-radius:5px;
+    display:flex;
+    position: absolute;
+    left:2px;
+}
+.add{
+    border-radius:5px;
+    display:flex;
+    position:absolute;
+    right:2px;
+}

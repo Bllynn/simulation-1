@@ -6,7 +6,7 @@ export default function Header(props){
 
             <div className='header'>
             <img src={shelfie} alt='logo'/>
-            Shelfie            
+            SHELFIE           
             </div>
         )
 
