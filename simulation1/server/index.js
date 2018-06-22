@@ -14,6 +14,7 @@ massive(process.env.CONNECTION_STRING).then(dbInstance=>{
 }).catch(err=>console.log(err));
 
 app.get('/api/inventory',controller.read)
+// app.post('/api/inventory',controller.post)
 
 
 const port = process.env.SERVER_PORT||3001

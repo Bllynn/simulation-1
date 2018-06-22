@@ -2,7 +2,11 @@
 
 module.exports={
     read: (req,res) =>{
-        console.log(1111111111111,res)
-        res.send()
-    }// stuff goes in here....
+        const dbInstance=req.app.get('db');
+        dbInstance.get_inventory().then((shop)=>res.status(200).send(shop))
+        .catch(err =>{
+            res.status(500).send({errorMessage:"close, but no cigar!  Try again."})
+            console.log(err)
+        });
+    }
 }
